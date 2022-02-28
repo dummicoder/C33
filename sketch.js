@@ -14,7 +14,8 @@ var score = 0;
 
 function preload() {
   // display the bg depending on time
-  getBackgroundImg();
+//   getBackgroundImg();
+  backgroundImg = loadImage("sprites/bg.png");
 }
 
 function setup() {
@@ -50,7 +51,8 @@ function setup() {
 }
 
 function draw() {
-  if (backgroundImg) background(backgroundImg);
+//   if (backgroundImg)
+    background(backgroundImg);
 
   // noStroke();
   textSize(35);
